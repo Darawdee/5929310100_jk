@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>ระบบสารสนเทศฯ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+   background-color: powderblue;
+  padding: 20px;
+  text-align: center;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+</style>
+
+<body>
+
+
+<div class="header">
+  <h1>ระบบสารสนเทศการยืมทรัพยากรสารสนเทศ
+  หอสมุดจอห์น เอฟ เคนเนดี้ สำนักวิทยบริการ มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตปัตตานี</h1>
+
+</div>
+
+<!-- Navbar -->
+
+  <div class="w3-bar w3-grad w3-card w3-left-align" style="width:100%;">
+   <div class="w3-dropdown-hover w3-hide-small w3-hover-white">
+     <a href="index.php"" class="w3-bar-item w3-button">หน้าแรก</a>
+	    
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+
+	 
+	 </div>
+  </div>
+	<div class="w3-dropdown-hover w3-hide-small w3-hover-white">
+     <a href="borrow.php"" class="w3-bar-item w3-button">การยืมทรัพยากรสารสนเทศ</a>
+	    
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+
+	 
+	 </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small w3-hover-white">
+     <a href="show.php"" class="w3-bar-item w3-button">สถิติการยืมทรัพยากรสารสนเทศ</a>
+	 <a href="#" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-search"></i></a>
+	    
+   
+	 
+	 <ul class="nav navbar-nav navbar-right">
+        <?php
+           
+              echo "<li><a href='login.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
+     
+             echo "<li><a href='logout.php'><span class='glyphicon glyphicon-log-out'></span> Logout</a></li>";
+          
+        ?>
+      </ul>
+
+    </div>
+  </div>
+
+  
+<div class="container">
+
+</div>
+	 
+	 
+	 
+	 </div>
+  </div>
+    
+  </div>
+
+  </div>
+
+
+      
+
+<center>
+<table>
+<tr>
+  	
+</table>
+
+</center>
+
+
+   
+
+ 
+  </select>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+ 
+<?php 
+//mysqli_close($con);
+?>
+</html>
